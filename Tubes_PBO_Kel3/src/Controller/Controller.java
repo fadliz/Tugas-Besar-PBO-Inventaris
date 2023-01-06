@@ -368,7 +368,7 @@ public class Controller extends MouseAdapter implements ActionListener {
                             } else {
                                 JOptionPane.showMessageDialog(view, "ID atau Username sudah dipakai", "Peringatan", JOptionPane.ERROR_MESSAGE);
                             }
-                        } else if (ad.getJenisPengguna().equals("Supplier")) {
+                        } else if (ad.getJenisPengguna().equals("Penyedia")) {
                             if (model.getSupplier(ad.getIDPenggunaKelola()) == null && model.getUserSupplier(ad.getUsernameKelola()) == null
                                     && !ad.getUsernameKelola().equals("admin") && model.getUserPetugas(ad.getUsernameKelola()) == null) {
                                 if (model.cekNama(ad.getNamaAsliKelola())) {

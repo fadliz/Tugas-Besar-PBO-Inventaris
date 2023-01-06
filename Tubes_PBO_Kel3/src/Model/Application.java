@@ -34,7 +34,7 @@ public class Application {
 
     public boolean cekNama(String name) {
         boolean benar = true;
-        if (!DIGIT_PATTERN.matcher(name).find()) {
+        if (DIGIT_PATTERN.matcher(name).find()) {
             benar = false;
         }
         return benar;
