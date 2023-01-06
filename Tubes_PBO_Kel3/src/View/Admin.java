@@ -77,7 +77,7 @@ public class Admin extends javax.swing.JPanel {
 
         btnSimpanPengguna.setText("SIMPAN");
 
-        cbPosisiKelola.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Penyedia", "Petugas" }));
+        cbPosisiKelola.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Supplier", "Petugas" }));
 
         jLabel6.setText("Nama Asli");
 
