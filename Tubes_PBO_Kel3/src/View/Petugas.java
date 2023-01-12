@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class Petugas extends javax.swing.JPanel {
 

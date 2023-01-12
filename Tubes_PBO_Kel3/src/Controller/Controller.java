@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class Controller extends MouseAdapter implements ActionListener {
 
@@ -138,11 +138,7 @@ public class Controller extends MouseAdapter implements ActionListener {
                         JOptionPane.showMessageDialog(view, "Username atau Password anda salah", "Peringatan", JOptionPane.ERROR_MESSAGE);
                     }
                 }
-            } else if (source.equals(l.getSignup())) {
-                l.setRegUsername();
-                l.setRegPass();
-                l.getRegister().setVisible(true);
-            }
+            } 
         } //----------------------------------------------MENU PENYEDIA------------------------------------------------//
         else if (currentView.equals("1")) {
             boolean a = py.getStatusNama();

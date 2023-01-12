@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class Supplier extends javax.swing.JPanel {
 

@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class Admin extends javax.swing.JPanel {
 

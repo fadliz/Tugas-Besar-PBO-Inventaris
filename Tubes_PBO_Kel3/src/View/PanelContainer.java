@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class PanelContainer extends javax.swing.JFrame {
 

@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Emp. Elesar II
+ * @author asama
  */
 public class Console {
     private Application model;
